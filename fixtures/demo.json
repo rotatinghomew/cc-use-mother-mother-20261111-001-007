@@ -1,0 +1,30 @@
+{
+  "subject_id": "followup_scheduler-synthetic",
+  "request_key": "followup_scheduler-demo",
+  "payload": {
+    "cohort_id": "co-1",
+    "day": 10,
+    "plans": [
+      {
+        "plan_id": "p1",
+        "next_due": 10,
+        "cadence_days": 7,
+        "active": true,
+        "priority": 2
+      },
+      {
+        "plan_id": "p2",
+        "next_due": 8,
+        "cadence_days": 3,
+        "active": true,
+        "missed_count": 2
+      }
+    ],
+    "responses": [
+      {
+        "scheduled_day": 10,
+        "submitted_day": 9
+      }
+    ]
+  }
+}
